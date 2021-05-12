@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+#apps {
+    background-image: linear-gradient(#00ffb3, #00e5ff, #008cff);
+    height: 800px;
+    padding-top: 40px;
+}
+
+#games {
+    background-image: linear-gradient(#002aff, #6600ff, #aa00ff);
+    height: 500px;
+    padding-top: 40px;
+}
+
+#chatBot {
+    background-image: linear-gradient(#dd00ff, #ff00c8, #ff0088);
+    height: 800px;
+    padding-top: 40px;
+}
+
+img:hover {
+    transform:scale(0.9);
+}
+img{
+    transition: transform 0.2s;
+}
